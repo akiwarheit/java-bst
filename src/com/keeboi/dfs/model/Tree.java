@@ -35,15 +35,8 @@ public class Tree {
 		
 		cb.onNodeNotFound();
 		throw new NodeNotFoundException();
-		
-//		return 0;
-		
+
 	}
-	
-//	public void printTree() {
-//		
-//	}
-	
 	
 	public Node getHead() {
 		return head;
